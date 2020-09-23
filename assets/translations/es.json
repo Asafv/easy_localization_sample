@@ -1,0 +1,20 @@
+{
+  "helloWorld": "Hola Mundo!",
+  "save": "Salvar",
+  "start": "Comienzo",
+  "back": "Espalda",
+  "args": "Con argumentos",
+  "money": "Tienes {} dolares",
+  "moneyCurrency": "Tienes {} {currency}",
+  "gender": {
+    "male":"Hola hombre ;) {}",
+    "female":"Hola niña :) {}",
+    "other": "Hola {}"
+  },
+  "moneyPlural": {
+    "zero": "Tu no tienes dinero",
+    "one": "Tienes {} dólar",
+    "many": "Tienes {} dólares",
+    "other": "Tienes {} dólares"
+  }
+}

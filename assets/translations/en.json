@@ -1,0 +1,20 @@
+{
+  "helloWorld": "Hello World!",
+  "save": "Save",
+  "start": "Start",
+  "back": "Back",
+  "args": "With Arguments",
+  "money": "You have {} dollars",
+  "moneyCurrency": "You have {} {currency}",
+  "gender":{
+    "male":"Hi man ;) {}",
+    "female":"Hello girl :) {}",
+    "other":"Hello {}"
+  },
+  "moneyPlural": {
+    "zero": "You do not have money",
+    "one": "You have {} dollar",
+    "many": "You have {} dollars",
+    "other": "You have {} dollars"
+  }
+}
