@@ -29,6 +29,15 @@ flutter:
 
   assets:
     - assets/translations/
-    - assets/translations/english_flag.png
-    - assets/translations/spanish_flag.png
+    - assets/flags/english_flag.png
+    - assets/flags/spanish_flag.png
+    - assets/flags/hindi_flag.png
+    - assets/flags/indonesian_flag.png
+    - assets/flags/japanese_flag.png
+    - assets/flags/portuguese_flag.png
+    - assets/flags/russian_flag.png
+    - assets/flags/spanish_flag.png
+    - assets/flags/thai_flag.png
+    - assets/flags/turkish_flag.png
+    - assets/flags/vietnamese_flag.png
 

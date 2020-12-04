@@ -19,10 +19,19 @@ class AppLocales {
   static List<ALocale> supportedALocales = [
     ALocale(Locale('en'), getImagePath('english_flag.png'), 'English'),
     ALocale(Locale('es'), getImagePath('spanish_flag.png'), 'Spanish'),
+
+    // TODO: uncomment this and you will see some errors
+    ALocale(Locale('hi'), getImagePath('hindi_flag.png'), 'Hindi'),
+    // ALocale(Locale('ru'), getImagePath('russian_flag.png'), 'Russian'),
+    // ALocale(Locale('pt'), getImagePath('portuguese_flag.png'), 'Portuguese'),
+    // ALocale(Locale('vi'), getImagePath('vietnamese_flag.png'), 'Vietnamese'),
+    // ALocale(Locale('th'), getImagePath('thai_flag.png'), 'Thai'),
+    // ALocale(Locale('ja'), getImagePath('japanese_flag.png'), 'Japanese'),
+    // ALocale(Locale('id'), getImagePath('indonesian_flag.png'), 'Indonesian'),
+    // ALocale(Locale('tr'), getImagePath('turkish_flag.png'), 'Turkish'),
   ];
 
-  static String getImagePath(String fileName) =>
-      'assets/translations/$fileName';
+  static String getImagePath(String fileName) => 'assets/flags/$fileName';
 
   static String get defaultLocale => 'English';
 

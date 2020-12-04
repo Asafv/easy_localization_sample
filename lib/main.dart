@@ -51,7 +51,7 @@ class _MyAppState extends State<MyApp> {
 }
 
 class MyHomePage extends StatelessWidget {
-  bool _isMale = false;
+  final bool _isMale = false;
 
   @override
   Widget build(BuildContext context) {
@@ -107,7 +107,7 @@ class MyHomePage extends StatelessWidget {
           ),
           Text(tr('helloWorld')),
           Text(tr('save')),
-          Text(tr('start')),
+          // Text(tr('start')),
           Text(tr('back')),
           Text(
             tr('args'),
